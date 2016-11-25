@@ -1,0 +1,155 @@
+.width_1{
+    width: 80%;
+    margin-left: 30px;
+}
+.form-group label{
+    padding-left: 33px;
+}
+.form-group label.pleft{
+    margin-left: -14px;
+}
+.form-group label.pleft1{
+    margin-left: -15px !important;
+}
+.form-group label.pleft2{
+    margin-left: -15px;
+}
+.form-group label i{
+    margin-right: 5px;
+    color: red;
+}
+.style_1{
+    display: inline-block;
+    resize: none;
+}
+.style_2{
+    display: inline-block;
+    resize: none;
+}
+.form-group button.alignTop{
+    vertical-align: bottom;
+    margin-top: 40px;
+    margin-left: 36px;
+}
+#addUser.form-horizontal .control-label{
+    text-align: right;
+}
+.pLefts{
+    margin-left: 150px;
+}
+.pLefts_1{
+    margin-left: 1%;
+}
+
+/*Ä£Ì¬¿òÑùÊ½*/
+.modal-content .boxes{
+    width: 424px;
+    margin: 30px auto 0px;
+}
+.modal-content .boxes .holds{
+    overflow: hidden;
+}
+.modal-content .floatLeft{
+    float: left;
+    width: 146px;
+    height: 175px;
+    border: 1px solid #CCCCCC;
+    border-left: 3px solid #3399CC;
+    border-radius: 2px;
+    overflow-y: auto;
+}
+.modal-content .floatLeft ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.modal-content .floatLeft ul li{
+    list-style: none;
+    background-color: #eeeeee;
+    margin-bottom: 2px;
+}
+.modal-content .floatLeft ul li:last-child{
+    margin-bottom: 0px;
+}
+.modal-content .floatLeft ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 21px;
+    padding-left: 15%;
+    font-size: 12px;
+    line-height: 21px;
+}
+.modal-content .floatLeft ul li a:focus{
+    background-color: #eeeecc;
+}
+.modal-content .widths{
+    width: 110px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    overflow: hidden;
+}
+.modal-content .widths .direction{
+    text-align: center;
+    margin-top: 20px;
+}
+.modal-content .widths .direction i{
+    font-weight: 600;
+    font-size: 50px;
+    cursor: pointer;
+}
+.modal-content div.topDistance{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.modal-content .topDistance #leftDistance{
+    margin-left: 137px;
+}
+.modal-content .topDistance #leftDistances{
+    margin-left: 232px;
+}
+/*ÌáÊ¾ÎÄ×Ö¡¢ËÑË÷¿òÑùÊ½*/
+.navbar-form .style-t{
+    width: 146px;
+    height: 30px;
+    margin-left: -15px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.modal-content .modal-body .lineText{
+    margin-left: 10px;
+}
+.modal-content .modal-body .lineText1{
+    margin-left: 205px;
+}
+.modal-content .modal-body .lineText,.modal-content .modal-body .lineText1{
+    font-weight: 600;
+}
+.modal-content .modal-body .width1{
+    width: 149px;
+}
+/*搜索input样式*/
+.search>input:focus,.search>input:active{
+    border-left: 1px solid #E2E2E4;
+    border-top: 1px solid #E2E2E4;
+    border-bottom: 1px solid #E2E2E4;
+    border-right: 0;
+}
+.search>input,.search>input:focus,.search>input:active{
+    border-right: 0px;
+}
+.search button,.search button:hover,.search button:focus{
+    height: 34px;
+    background :white;
+    border: 1px solid #E2E2E4;
+    border-left:0px;
+}
+.search{
+    width: 146px;
+    margin:8px 0;
+}
+/*加载图标*/
+.loading{
+    position: absolute;
+    top: 160px;
+    left: 145px;
+}

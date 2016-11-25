@@ -1,0 +1,30 @@
+.navbar-default {
+    background-color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: white;
+}
+.dropdown.navbar-left{
+   margin-right: 70px;
+}
+.breadcrumb{
+    border-bottom: 1px solid #CCCCCC;
+    border-radius: 0;
+    margin: 10px;
+    padding: 8px 0px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+.btn-success{
+	background-color: #3cc;
+	border: 1px solid #3cc;
+}
+.btn-success:hover{
+	background-color: #3cc;
+	border: 1px solid #3cc;
+}
+.btn-success:focus{
+	background-color: #3cc;
+	border: 1px solid #3cc;
+}

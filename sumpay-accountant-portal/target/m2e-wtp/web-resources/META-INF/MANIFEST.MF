@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-Title: sumpay-accountant-portal
+Implementation-Version: 1.0
+Implementation-Vendor-Id: cn.sumpay
+Build-Jdk: 1.7.0_67
+Built-By: Administrator
+Created-By: Maven Integration for Eclipse
+

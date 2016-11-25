@@ -1,0 +1,27 @@
+#set($pageTitle='出错了')
+#set($activeMenu='dashboard')
+
+#parse("/layout/header.vm")
+#parse("/layout/title.vm")
+#parse("/layout/sidebar.vm")
+<section class="allcolor">
+	<div id="section">
+		<div>
+			<ol class="breadcrumb">
+			</ol>
+		</div>
+		
+	<div id="error">
+		<p><img class='img-responsive' src="../images/error.jpg"/></p>
+		<div class="errortext">
+			<h1>出错了!!   </h1>
+			<h4>您可能无此权限或地址访问错误<br/>如有错误请及时联系您的管理员</h4>
+			<a id="back_up" onClick="goBack()" href="#"><span class="glyphicon glyphicon-repeat"></span>&nbsp;&nbsp;返回</a>
+		</div>
+	</div>
+    </div>
+</section>  
+<script type="text/javascript" src="../js/global/error.js"></script>
+<script type="text/javascript" src="../js/global/configG.js"></script>
+<script type="text/javascript" src="../js/lib/jquery/jquery.from.min.js"></script>
+#parse("/layout/bottom.vm")

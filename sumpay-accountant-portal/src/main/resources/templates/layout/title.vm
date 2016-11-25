@@ -1,0 +1,21 @@
+<header class="container-fluid" id='header'>
+	<nav class="nav navbar-default navbar-fixed-top">
+		<div><p class="navbar-text"><a href="../index.html"><img src="../images/LOGO.png"></a></p></div>
+		<div class="container-fluid header">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown navbar-left">
+						<a href="#" id="dropdown-toggle" class="dropdown-toggle" data-toggle="dropdown" ><i></i>
+							<b><span class="caret"></span></b></a>
+						<ul class="dropdown-menu">
+ 							<li><a id="information" href="#">个人信息</a></li>
+							<li><a id="updatePass" href="#">修改密码</a></li>
+							<li><a id="callBack" href="../account/logout.do">退出</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+

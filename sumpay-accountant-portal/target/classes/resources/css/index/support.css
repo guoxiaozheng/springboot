@@ -1,0 +1,128 @@
+.allcolor .container .section{
+	background-color: #fff;
+	height: auto !important;
+	margin: 5px auto auto; 
+	min-height: 90%;
+	overflow: hidden;
+	width: 98%;	
+}
+.allcolor>.container>.section>.nav-pills {
+	text-align:center; 
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	border:0px;
+}
+.allcolor>.container>.section>.nav-pills>li {
+	width:25%;
+	margin:0px 4%;
+} 
+.allcolor>.container>.section>.nav-pills>li>a {
+	border:1px solid #ddd;
+	background:f1f1f1;
+}
+
+.allcolor>.container>.section>.nav-pills>li.active>a{
+ 	background:#337ab7;	
+}
+.allcolor>.container>.section>.nav-pills>li:hover>a{
+ 	background:#337ab7;	
+}
+.allcolor .container>.section>.nav-pills>li:hover>a,.allcolor>.container>.section>.nav-pills>li:hover>i{
+	color:#333;
+}
+.allcolor>.container>.section>.nav-pills>li:hover>a,.allcolor>.container>.section>.nav-pills>li:hover>i{
+	color:#fff;
+}
+.allcolor .container .section .tab-wraped{
+	border:0px;
+}
+.allcolor .container .section .tab-wraped>.tab-content>.tab-pane{
+	border:1px solid #ddd;
+	border-radius:5px;
+}
+.allcolor .container .section .tab-wraped div div table.copy-list tr{
+	border-bottom:1px solid #ddd;
+	padding:5px 10px;
+	font-size:13px;
+	border:0px;
+	margin:10px;
+}
+.allcolor .container .section .tab-wraped div div table.copy-list tr td {
+	padding-left:30px;
+	padding-right:15px;
+	border:0px;
+}
+
+.allcolor .container .section .tab-wraped div div table.copy-list tr td a i{
+	display:none;
+}
+.allcolor .container .section .tab-wraped div div table.copy-list tr td a:hover{
+	text-decoration:underline
+}
+.allcolor .container .section .tab-wraped div div table.copy-list tr td a.ico:hover{
+	text-decoration:none
+}
+#home .nav-pills,#messages .nav-pills{
+	background:url("../../images/bg-content-box.gif") repeat-x;
+	padding-right:35px;
+	height:40px;
+}
+#home .nav-pills li,#messages .nav-pills li{
+	float:right;
+	padding:5px 10px 0;
+}
+#home .nav-pills li h3,#messages .nav-pills li h3{
+	font-size:17px;
+	padding-top:5px;
+	color:#333;
+}
+#home .nav-pills li a,#messages .nav-pills li a{
+	padding:9px; 
+	background:none;
+	color:#333;
+	font-size:12px;
+	border:0px;
+}
+#home .nav-pills li:hover a,#messages .nav-pills li:hover a{
+	border:0px;
+}
+#home .nav-pills li.active a,#messages .nav-pills li.active a{
+	background:#fff;
+	border:1px solid #ddd;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom:0px;
+}
+ul.support li a{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

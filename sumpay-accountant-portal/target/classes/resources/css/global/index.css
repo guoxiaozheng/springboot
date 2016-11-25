@@ -1,0 +1,109 @@
+body{
+	color: #666;
+	font-family: '微软雅黑';
+	background-color: #fff;
+}
+/*头部样式*/
+.navbar-default{
+	border: 0px;
+}
+.navbar{
+	margin-bottom:0;
+}
+ul.navbar-nav{
+	height: 50px;
+	float: right;
+}
+ul.navbar-nav li a{
+	text-align: center;
+	height: 50px;
+	margin: 0 2px;
+
+}
+ul.navbar-nav li a:hover{
+	border-bottom: 3px solid blue;
+}
+ul.navbar-nav li a.active{
+	border-bottom: 3px solid blue;
+}
+ul.navbar-nav li{
+	line-height: 50px;
+	width: 100px;
+	height: 50px;
+}
+.navbar-brand{
+	padding: 0;
+}
+.navbar-brand img{
+	width:140px;
+}
+body>section{
+	padding-left: 0;
+}
+#carousel{
+	width: 100%;
+	position: relative;
+}
+#carousel img{
+	margin:auto;
+}
+#carousel .content{
+	height: 300px;
+	overflow: hidden;
+}
+#carousel  p{
+	color: #fff;
+	font-weight: 700;
+	font-size: 28px;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+}
+ul.produceList{
+	overflow: hidden;
+	width: 60%;
+	margin-left: 6%; 
+}
+ul.produceList li a{
+	display: block;
+	width: 150px;
+	height: 100px;
+	vertical-align: middle;
+}
+ul.produceList li a span{
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 150px;
+}
+ul.produceList li{
+ 	float: left;
+ 	margin-right: 5%;
+ 	height: 150px;
+ 	text-align: center;
+}
+ul.produceList li img{
+	vertical-align: middle;
+}
+ul.produceList li p{
+	text-align: center;
+}
+#produce>div{
+	float: left;
+}
+#produce{
+	width: 100%;
+	overflow: hidden;
+}
+#produce #index_section{
+
+	margin-left:22%;
+	width: 100%;
+}
+.container{
+	width: 100%;
+	padding: 0;
+}
+#index_section .produceList li p i{
+	color: red;
+}

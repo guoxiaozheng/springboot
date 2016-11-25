@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.2.5.RELEASE</version>
+    </parent>
+  <groupId>cn.sumpay</groupId>
+  <artifactId>sumpay-root</artifactId>
+  <version>1.0</version>
+  <packaging>pom</packaging>
+  <name>sumpay-root</name>
+  
+  
+  <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.encoding>UTF-8</java.encoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+
+		</dependency>		
+	</dependencies>		
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<finalName>sumpay-accountant-service</finalName>
+					<appendAssemblyId>false</appendAssemblyId>
+					<descriptors>
+						<descriptor>assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<distributionManagement>
+        <repository>
+            <id>Sumpay-releases</id>
+            <name>Sumpay Releases Repository</name>
+            <url>http://192.168.8.240:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>Sumpay-snapshots</id>
+            <name>Sumpay Snapshots Repository</name>
+            <url>http://192.168.8.240:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+	<modules>
+		<module>sumpay-accountant-portal</module>
+		<module>sumpay-accountant-service</module>
+		<module>sumpay-account</module>
+	</modules>
+</project>

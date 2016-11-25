@@ -1,0 +1,53 @@
+#set($pageTitle='首页')
+#set($activeMenu='dashboard')
+
+#parse("/layout/header.vm")
+<link rel="stylesheet" type="text/css" href="../js/ais-fed/canvas/css/component.css" />
+<link rel="stylesheet" type="text/css" href="../css/global/index.css">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="../images/LOGO.png"/></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">产品</a></li>
+        <li><a href="../index/support.html" target="_blank">技术支持</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<section>
+	<div id="carousel">
+      <div class="container demo-1">
+        <div class="content">
+          <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <h2 class="main-title">紫霞 我的一站式运维平台</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+	<div id="produce">
+		<div id="index_section">
+          <h3>最新产品</h3>
+          <ul class='produceList'>
+          </ul>
+        </div>
+    </div>
+</section>  
+<script type="text/javascript" src="../js/global/index.js"></script>
+<script src="../js/ais-fed/canvas/js/TweenLite.min.js"></script>
+<script src="../js/ais-fed/canvas/js/EasePack.min.js"></script>
+<script src="../js/ais-fed/canvas/js/rAF.js"></script>
+<script src="../js/ais-fed/canvas/js/demo-1.js"></script>  
+#parse("/layout/bottom.vm")

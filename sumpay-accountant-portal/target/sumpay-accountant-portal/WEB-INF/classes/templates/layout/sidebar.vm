@@ -1,0 +1,19 @@
+<!--bar-->
+	<div id="bar" class="bar">
+		<h6 id='bbar'>
+			<p class="bar-logo"><i class="bar-ico"><img src="../images/bar/shezhi.png"></i><i class="bar-text">系统设置</i><i class="bar-menu"><img src="../images/bar/lALOAUvGIiAg_32_32.png"></i></p>
+			<div id="bar-view">
+				<div class="bar-header">
+					<div><p><img src="../images/bar/shezhi.png">系统设置</p></div>
+				</div>
+				<div class="bar-body">
+					<p>我的应用</p>
+					<table id="bar-table">
+					</table>
+				</div>
+			</div>
+			<ul class="bar-list">
+			</ul>
+		</h6>
+	</div>
+

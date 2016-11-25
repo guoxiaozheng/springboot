@@ -1,0 +1,149 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>cn.sumpay</groupId>
+		<artifactId>sumpay-root</artifactId>
+		<version>1.0</version>
+	</parent>
+	<artifactId>sumpay-accountant-service</artifactId>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<!-- <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
+        </dependency> -->
+		<!-- 业务jar引入 -->
+         <dependency>
+			<groupId>cn.sumpay</groupId>
+			<artifactId>sumpay-account-guo</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.sumpay</groupId>
+			<artifactId>sumpay-accountant-api</artifactId>
+			<version>1.0.4-SNAPSHOT</version>
+		</dependency>
+		<!--  -->
+		
+        <dependency>
+
+            <groupId>com.alibaba</groupId>
+
+            <artifactId>dubbo</artifactId>
+
+            <version>2.5.3</version>
+
+            <exclusions>
+
+                <exclusion>
+
+                    <groupId>org.springframework</groupId>
+
+                    <artifactId>spring</artifactId>
+
+                </exclusion>
+
+            </exclusions>
+
+        </dependency>
+
+        <dependency>
+
+            <groupId>org.apache.zookeeper</groupId>
+
+            <artifactId>zookeeper</artifactId>
+
+            <version>3.4.6</version>
+
+            <exclusions>
+
+                <exclusion>
+
+                    <groupId>org.slf4j</groupId>
+
+                    <artifactId>slf4j-log4j12</artifactId>
+
+                </exclusion>
+
+                <exclusion>
+
+                    <groupId>log4j</groupId>
+
+                    <artifactId>log4j</artifactId>
+
+                </exclusion>
+
+            </exclusions>
+
+        </dependency>
+
+ 
+
+        <dependency>
+
+            <groupId>com.github.sgroschupf</groupId>
+
+            <artifactId>zkclient</artifactId>
+
+            <version>0.1</version>
+
+        </dependency>
+	
+	
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc14</artifactId>
+			<version>10.2.0.4.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.0.5</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-logging</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-log4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis</artifactId>
+			<version>3.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
